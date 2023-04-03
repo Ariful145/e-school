@@ -13,21 +13,20 @@ body {
 }
 
 header {
-   width: 1440px;
    height: 576px;
-   left: 0px;
-   top: 0px;
    background: #f0fff0;
 }
 
 .b-title {
    font-weight: 700;
 }
+/*
 .container {
    height: fit-content;
    width: max-content;
    margin: 20px 20px 10px 50px;
 }
+*/
 
 .navbar {
    font-family: Poppins;
@@ -87,9 +86,8 @@ header {
 }
 
 .man-text {
-   height: 90px;
-   width: 580px;
-   left: 400px;
+   height: auto;
+   width: 100%;
    padding-top: 20px;
    line-height: 30px;
 }
@@ -97,15 +95,14 @@ header {
 .deep-section {
    text-align: center;
    justify-content: center;
-   margin-left: 253px;
 }
 
 .footer {
-   width: 1440px;
    height: 369px;
    top: 2013px;
    background: #282531;
    color: #fff;
+   margin-top: 45px;
 }
 
 .footer p {
@@ -113,7 +110,7 @@ header {
    width: 290px;
    height: 6px;
    font-size: 12px;
-   margin-left: 200px;
+   margin-left: 100px;
 }
 
 .footer ul,
@@ -129,7 +126,6 @@ a {
 
 .list {
    padding-top: 45px;
-   width: 700px;
 }
 
 .bottom {
